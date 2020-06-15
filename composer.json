@@ -1,0 +1,17 @@
+{
+    "name": "brunno.marchetti/financas-pessoais",
+    "authors": [
+        {
+            "name": "Brunno Marchetti",
+            "email": "brunno.marchetti@ibm.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "fin\\": "src/"
+        }
+    }
+}
